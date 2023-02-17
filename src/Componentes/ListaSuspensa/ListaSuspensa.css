@@ -1,0 +1,35 @@
+@import url(/src/App.css);
+
+.listaSuspensa{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.listaSuspensa label{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--cinza);
+    display: block;
+    margin: 10px auto;
+    width: 87%;
+    text-align: center;
+    
+    
+}
+
+.listaSuspensa select{
+    width: 87%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    background-color: rgba(252, 240, 227, 0.2);
+    border-radius: 10px;
+    border-bottom: 1px solid var(--creme);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}

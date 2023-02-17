@@ -1,0 +1,24 @@
+@import url(/src/App.css);
+
+.campoDeTexto{
+    width: 100%;
+}
+.campoDeTexto input{
+    width: 80%;
+    display: block;
+    margin: 60px auto 0;
+    padding: 20px;
+    border: none;
+    background-color: rgba(252, 240, 227, 0.2);
+    border-radius: 10px;
+    border-bottom: 1px solid var(--creme);
+}
+
+.campoDeTexto input::placeholder{
+    color: var(--cinza);
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

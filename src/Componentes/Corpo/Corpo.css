@@ -1,0 +1,11 @@
+@import url(/src/App.css);
+
+.corpo{
+    background-color: var(--verde);
+    height: 100%;
+    display: grid;
+    padding-top: 90px;
+    grid-template-areas: 
+        "Resposta Resposta Formulario"
+    ;
+}
